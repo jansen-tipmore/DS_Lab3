@@ -1,11 +1,11 @@
 
 public class Elf extends Race {
 
-	public Elf() {
-		// TODO Auto-generated constructor stub
+	public Elf(Job j) {
+		super(j);
 	}
 	
-	private int getDex() {
+	public int getDEX() {
 		return 25;
 	}
 	
@@ -14,12 +14,5 @@ public class Elf extends Race {
 		return "ELF";
 	}
 
-
-	@Override
-	public String getJobName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-
 }
+
